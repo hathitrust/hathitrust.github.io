@@ -1,0 +1,21 @@
+Codename: bullseye
+Components: main
+Date: Wed, 23 Mar 2022 13:02:52 +0000
+Label: HathiTrust
+Origin: HathiTrust
+MD5Sum:
+ f6b4b4c817bc3e922865332dbc72a482              111 Release
+ dd0ea33add0acc7815b91c5c565afa34             1347 main/binary-all/Packages
+ a8aafab3398685442c84f9d88db7d764             5560 main/binary-amd64/Packages
+SHA1:
+ 6f9f85bcbc32d1b799b6ada2dce9d6f77b9e5120              111 Release
+ ca53ac7475ab4e8ddf4442bcbc63895b45067853             1347 main/binary-all/Packages
+ 473dc2ca9abe91ab76ed49006695fd4b3e3af7ed             5560 main/binary-amd64/Packages
+SHA256:
+ ca46874c98daa7f19aee564935c972176d062221d44ae079fa009088266783ac              111 Release
+ 3f4cfdb7476db8276ca6430691ac98939fa52b112db7e5f98ede53f4cc7bfd6b             1347 main/binary-all/Packages
+ 3b0a378f995ac286317785cde621528804fb51cc0f3121b76ce36056aac6c66d             5560 main/binary-amd64/Packages
+SHA512:
+ 37524f816f9c74fdf85211b258ddf77eea9bcad7d08d2cfaea0e7ea3c9ec810da3b797bb4adf7fcef2730c3e0731db053c2c29d35615378d635d9b4181b0a269              111 Release
+ a652792b586c5ae21d2ce242f0abd4da4baee4f76880a6698d0d63110d583e884fe39de73de0c37a9d62429eb86b3c0b3a7498479ce6c73ef7b36faa4838fd0d             1347 main/binary-all/Packages
+ e7d0d2a7f102364c50c3c963b2c0b8fc28a697b604cc3b52eec1d8d98e382484f295f5a3eb8668d95a1c730446643a4c43c628475f3d1e2180ef7adba8b89284             5560 main/binary-amd64/Packages
