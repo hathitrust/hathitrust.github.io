@@ -1,3 +1,9 @@
-# hathitrust.github.io
+# HathiTrust on GitHub
 
-This is where publicly-available HathiTrust debs live.
+## [git repositories](https://github.com/hathitrust)
+
+Our publicly-available code.
+
+## [Debian repository] 
+
+Our publicly-available packages for Debian, used by some of our Docker images.
