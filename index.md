@@ -4,6 +4,6 @@
 
 Our publicly-available code.
 
-## [Debian repository] 
+## [Debian repository](debian)
 
 Our publicly-available packages for Debian, used by some of our Docker images.
