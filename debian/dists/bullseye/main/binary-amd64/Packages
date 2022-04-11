@@ -109,28 +109,6 @@ Description: development files for Grok, a JPEG 2000 image library
  .
  This package contains the development files for Grok.
 
-Package: libgrokj2k1-doc
-Source: libgrokj2k
-Version: 9.7.5-1
-Architecture: all
-Maintainer: Aaron Boxer <boxerab@protonmail.com>
-Installed-Size: 42033
-Filename: dists/bullseye/main/binary-amd64/libgrokj2k1-doc_9.7.5-1_all.deb
-Size: 2033236
-MD5sum: 36d017469706fec45bde1bd38c0c9e0d
-SHA1: 96f2d3ed97c3ee060b08ae28361ec3fe41105ef1
-SHA256: 4aec01dde469bc2fcdc133c7e9ae5138c5a0ad995c35876d1f5e72465c22f9e2
-Section: doc
-Priority: optional
-Homepage: https://github.com/GrokImageCompression/grok
-Description: documentation for the Grok JPEG 2000 library
- Grok is a library for handling the JPEG 2000 image compression format.
- JPEG 2000 is a wavelet-based image compression standard that permits
- progressive decoding by pixel and resolution accuracy.
- It supports lossless and lossy compression and is resilient to image errors.
- .
- This package contains the documentation for Grok.
-
 Package: netpbm-sf
 Version: 10.86.31
 Architecture: amd64

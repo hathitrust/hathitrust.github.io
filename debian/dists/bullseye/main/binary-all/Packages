@@ -1,14 +1,14 @@
 Package: libgrokj2k1-doc
 Source: libgrokj2k
-Version: 9.7.4-1
+Version: 9.7.5-1
 Architecture: all
 Maintainer: Aaron Boxer <boxerab@protonmail.com>
-Installed-Size: 39222
-Filename: dists/bullseye/main/binary-all/libgrokj2k1-doc_9.7.4-1_all.deb
-Size: 1938456
-MD5sum: 2554b5fcaa9039041931eab4e32bd9eb
-SHA1: cf8b2c6eb0e4ea1a300b0c083fcf12b42c164df6
-SHA256: 9ff82a9b282cf8d88635613e6a65b41922cb3496934db4a2ff73548916724e37
+Installed-Size: 42033
+Filename: dists/bullseye/main/binary-all/libgrokj2k1-doc_9.7.5-1_all.deb
+Size: 2033236
+MD5sum: 36d017469706fec45bde1bd38c0c9e0d
+SHA1: 96f2d3ed97c3ee060b08ae28361ec3fe41105ef1
+SHA256: 4aec01dde469bc2fcdc133c7e9ae5138c5a0ad995c35876d1f5e72465c22f9e2
 Section: doc
 Priority: optional
 Homepage: https://github.com/GrokImageCompression/grok
