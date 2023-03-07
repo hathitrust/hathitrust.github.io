@@ -1,5 +1,57 @@
 Package: grokj2k-tools
 Source: libgrokj2k
+Version: 10.0.5-1
+Architecture: amd64
+Maintainer: Aaron Boxer <boxerab@protonmail.com>
+Installed-Size: 106
+Depends: libc6 (>= 2.2.5), libgrokj2k1 (>= 10.0.5)
+Filename: dists/bullseye/main/binary-amd64/grokj2k-tools_10.0.5-1_amd64.deb
+Size: 27660
+MD5sum: d1e409078d3f99c91e8984899644c7e8
+SHA1: 7e6a4a8ade80d03a68c3b77ed2ebdadc8e087ba7
+SHA256: cec2a5e09e231c07195eb6a2ed3c45dda138c91e4f9ae63ff93922792578a684
+Section: graphics
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/GrokImageCompression/grok
+Description: command-line tools for the Grok JPEG 2000 library
+ This package provides command-line tools for conversions between
+ several image formats:
+ .
+  - grk_decompress: decompress j2k or jp2 file to pgm, ppm, pnm, pam,
+                  pgx, tif, bmp, raw, rawl, jpeg or png.
+  - grk_compress: encode pgm, ppm, pnm, pam, pgx, tif, bmp, raw, rawl,
+                  jpeg or png file to j2k or jp2 file.
+  - grk_dump: dump information contained in a j2k or jp2 file.
+
+Package: grokj2k-tools
+Source: libgrokj2k
+Version: 9.7.4-1
+Architecture: amd64
+Maintainer: Aaron Boxer <boxerab@protonmail.com>
+Installed-Size: 3229
+Depends: libc6 (>= 2.30), libgcc-s1 (>= 3.4), libgrokj2k1 (>= 9.7.4), libjpeg62-turbo (>= 1.3.1), libperl5.32 (>= 5.32.0~rc1), libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 9), libtiff5 (>= 4.0.3)
+Filename: dists/bullseye/main/binary-amd64/grokj2k-tools_9.7.4-1_amd64.deb
+Size: 581980
+MD5sum: 5367b7f6c28aaa4a0c2cfd3cb1cb307b
+SHA1: 537e3ab94f7f85ba7ff819b926232ac8a8ef4c69
+SHA256: 7eddce07eb5b04d23e36648f6ab1cc0578ca593ae453acd401f9fc4a8462fb25
+Section: graphics
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/GrokImageCompression/grok
+Description: command-line tools for the Grok JPEG 2000 library
+ This package provides command-line tools for conversions between
+ several image formats:
+ .
+  - grk_decompress: decode j2k or jp2 file to pgm, ppm, pnm, pam,
+                  pgx, tif, bmp and png.
+  - grk_compress: encode pnm, pgm, pgx, bmp, or ppm file to j2k
+                  or jp2 file.
+  - grk_dump: dump information contained in a j2k or jp2 file.
+
+Package: grokj2k-tools
+Source: libgrokj2k
 Version: 9.7.5-1
 Architecture: amd64
 Maintainer: Aaron Boxer <boxerab@protonmail.com>
@@ -26,6 +78,42 @@ Description: command-line tools for the Grok JPEG 2000 library
 
 Package: grokj2k-tools-dbgsym
 Source: libgrokj2k
+Version: 10.0.5-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Aaron Boxer <boxerab@protonmail.com>
+Installed-Size: 37
+Depends: grokj2k-tools (= 10.0.5-1)
+Filename: dists/bullseye/main/binary-amd64/grokj2k-tools-dbgsym_10.0.5-1_amd64.deb
+Size: 3904
+MD5sum: a73c81c86cbed5a9d4a9c90edf6fb519
+SHA1: 5392a1b0aa217c7e38b217424ef32868ff97483f
+SHA256: 4f4ba67a4acf82e5ad23eec2c9f5e6896b06d696d85c64dff7eadb549218a0a6
+Section: debug
+Priority: optional
+Description: debug symbols for grokj2k-tools
+Build-Ids: 7b423329e64204200dc8e175c228ae4b6291719d e9a86bfa022f7b278bd832dd078eb4d69fa607f2 f0d023bdee9970d2529b8e026a4595b584570187
+
+Package: grokj2k-tools-dbgsym
+Source: libgrokj2k
+Version: 9.7.4-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Aaron Boxer <boxerab@protonmail.com>
+Installed-Size: 16538
+Depends: grokj2k-tools (= 9.7.4-1)
+Filename: dists/bullseye/main/binary-amd64/grokj2k-tools-dbgsym_9.7.4-1_amd64.deb
+Size: 15896936
+MD5sum: 300853c45162a0731eeb43d6ae6ff151
+SHA1: d3041f0b2c4a4cd357d761181d3fc2514ae14353
+SHA256: ff29df93bed034a42accb54d35731ed5d3291842cb1725e566809fadc3d5591d
+Section: debug
+Priority: optional
+Description: debug symbols for grokj2k-tools
+Build-Ids: 363e807d4f8a8080573375c26a438254236b35c5 9cbc751a2475c85c3cf42bb50a31d6516c686ffc a49c6c41e5c32d2d6170cda0f978c05151faacfc
+
+Package: grokj2k-tools-dbgsym
+Source: libgrokj2k
 Version: 9.7.5-1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
@@ -41,6 +129,54 @@ Section: debug
 Priority: optional
 Description: debug symbols for grokj2k-tools
 Build-Ids: 3f7419de114bb7f0791267486fa0393632959158 40cd44d260e384102b78c46fb9f76f5567939702 56c2abab52f08e49646d022ba62ecab79638b0df
+
+Package: libgrokj2k1
+Source: libgrokj2k
+Version: 10.0.5-1
+Architecture: amd64
+Maintainer: Aaron Boxer <boxerab@protonmail.com>
+Installed-Size: 2390
+Depends: libc6 (>= 2.30), libgcc-s1 (>= 3.4), libjpeg62-turbo (>= 1.3.1), liblcms2-2 (>= 2.2+git20110628), libperl5.32 (>= 5.32.0~rc1), libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 9), libtiff5 (>= 4.0.3)
+Filename: dists/bullseye/main/binary-amd64/libgrokj2k1_10.0.5-1_amd64.deb
+Size: 735244
+MD5sum: 637c93775969d4d5c9deb32272308799
+SHA1: 806393d0effafea3e4d553d16caf7696bc7affb0
+SHA256: 393de28312dae83240d52d52af8dcab4b03931a428d13817f9fc761e46ac8852
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/GrokImageCompression/grok
+Description: JPEG 2000 image compression/decompression library
+ Grok is a library for handling the JPEG 2000 image compression format.
+ JPEG 2000 is a wavelet-based image compression standard that permits
+ progressive decoding by pixel and resolution accuracy.
+ It supports lossless and lossy compression and is resilient to image errors.
+ .
+ This package contains the runtime files for Grok.
+
+Package: libgrokj2k1
+Source: libgrokj2k
+Version: 9.7.4-1
+Architecture: amd64
+Maintainer: Aaron Boxer <boxerab@protonmail.com>
+Installed-Size: 1453
+Depends: libc6 (>= 2.29), libgcc-s1 (>= 3.4), libstdc++6 (>= 9)
+Filename: dists/bullseye/main/binary-amd64/libgrokj2k1_9.7.4-1_amd64.deb
+Size: 474220
+MD5sum: 067d423b81b29ba29039371240bf7aa4
+SHA1: c598a11776ea9fcd14e3eb9c70533b48ceb4c561
+SHA256: b2b657258d2e105de8ac6aaddde323dd5047519780c5cc5f6d3f1ac679e4dab8
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/GrokImageCompression/grok
+Description: JPEG 2000 image compression/decompression library
+ Grok is a library for handling the JPEG 2000 image compression format.
+ JPEG 2000 is a wavelet-based image compression standard that permits
+ progressive decoding by pixel and resolution accuracy.
+ It supports lossless and lossy compression and is resilient to image errors.
+ .
+ This package contains the runtime files for Grok.
 
 Package: libgrokj2k1
 Source: libgrokj2k
@@ -68,6 +204,44 @@ Description: JPEG 2000 image compression/decompression library
 
 Package: libgrokj2k1-dbgsym
 Source: libgrokj2k
+Version: 10.0.5-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Aaron Boxer <boxerab@protonmail.com>
+Installed-Size: 19165
+Depends: libgrokj2k1 (= 10.0.5-1)
+Filename: dists/bullseye/main/binary-amd64/libgrokj2k1-dbgsym_10.0.5-1_amd64.deb
+Size: 18846836
+MD5sum: 576a6b6bece488fdba5ee8f0f23a1278
+SHA1: 51cfc54e3fb86263c7ccae230f9aa905aa1493f8
+SHA256: 920f53bdd73e5241b0cc7601b73f1a75ca140e6903b3f208b16709ff96f35270
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for libgrokj2k1
+Build-Ids: 2dac8dd821e37cabd4a59cb1e33f90a78c2ec914 a1ef2e5196b147d1fac09ababd908e4fe395fdfd
+
+Package: libgrokj2k1-dbgsym
+Source: libgrokj2k
+Version: 9.7.4-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Aaron Boxer <boxerab@protonmail.com>
+Installed-Size: 8426
+Depends: libgrokj2k1 (= 9.7.4-1)
+Filename: dists/bullseye/main/binary-amd64/libgrokj2k1-dbgsym_9.7.4-1_amd64.deb
+Size: 8289424
+MD5sum: 988ba18590526b1b1acc22207545b22d
+SHA1: b91878ecf158c44ace57389bb8ced724c1177395
+SHA256: d3d31cdda688145a966ce85861dca8b05be530c0db55a4f8a7710f9b9ba3d53a
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for libgrokj2k1
+Build-Ids: 3e9b3d07fc3832f5a5ab1624f2a9a2cd2cc14692
+
+Package: libgrokj2k1-dbgsym
+Source: libgrokj2k
 Version: 9.7.5-1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
@@ -84,6 +258,55 @@ Priority: optional
 Multi-Arch: same
 Description: debug symbols for libgrokj2k1
 Build-Ids: 9afac57acf6f68509ff0bb95465b2d13514e5560
+
+Package: libgrokj2k1-dev
+Source: libgrokj2k
+Version: 10.0.5-1
+Architecture: amd64
+Maintainer: Aaron Boxer <boxerab@protonmail.com>
+Installed-Size: 115
+Depends: libgrokj2k1 (= 10.0.5-1)
+Recommends: libgrokj2k1-doc (= 10.0.5-1)
+Filename: dists/bullseye/main/binary-amd64/libgrokj2k1-dev_10.0.5-1_amd64.deb
+Size: 27792
+MD5sum: 2c893a698bca7394de87c8d57340deb8
+SHA1: d38b1507814ca364e7570085e44cdca4ed2c0548
+SHA256: 374770dd769dcb2e3478e757ab55a27a1b6510a46e9af722a58eda1276cf6515
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/GrokImageCompression/grok
+Description: development files for Grok, a JPEG 2000 image library
+ Grok is a library for handling the JPEG 2000 image compression format.
+ JPEG 2000 is a wavelet-based image compression standard that permits
+ progressive decoding by pixel and resolution accuracy.
+ It supports lossless and lossy compression and is resilient to image errors.
+ .
+ This package contains the development files for Grok.
+
+Package: libgrokj2k1-dev
+Source: libgrokj2k
+Version: 9.7.4-1
+Architecture: amd64
+Maintainer: Aaron Boxer <boxerab@protonmail.com>
+Installed-Size: 116
+Depends: libgrokj2k1 (= 9.7.4-1)
+Recommends: libgrokj2k1-doc (= 9.7.4-1)
+Filename: dists/bullseye/main/binary-amd64/libgrokj2k1-dev_9.7.4-1_amd64.deb
+Size: 28588
+MD5sum: 885db945ed8b4ef8d2709d2f59a69cba
+SHA1: a53fc0901157b83d97c7d757635fcf362622a2d0
+SHA256: 14ef875f76525bb5dadcc8e9bdd6f6f2081237d9defebd40bcaed2ac0532fcb3
+Section: libdevel
+Priority: optional
+Homepage: https://github.com/GrokImageCompression/grok
+Description: development files for Grok, a JPEG 2000 image library
+ Grok is a library for handling the JPEG 2000 image compression format.
+ JPEG 2000 is a wavelet-based image compression standard that permits
+ progressive decoding by pixel and resolution accuracy.
+ It supports lossless and lossy compression and is resilient to image errors.
+ .
+ This package contains the development files for Grok.
 
 Package: libgrokj2k1-dev
 Source: libgrokj2k

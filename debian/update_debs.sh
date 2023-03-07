@@ -31,8 +31,9 @@ EOT
 )
 
 cd $DEBHOME
-dpkg-scanpackages dists/$RELEASE/main/binary-amd64 > dists/$RELEASE/main/binary-amd64/Packages
-dpkg-scanpackages dists/$RELEASE/main/binary-all > dists/$RELEASE/main/binary-all/Packages
+dpkg-scanpackages --multiversion dists/$RELEASE/main/binary-amd64 > dists/$RELEASE/main/binary-amd64/Packages
+dpkg-scanpackages --multiversion dists/$RELEASE/main/binary-arm64 > dists/$RELEASE/main/binary-arm64/Packages
+dpkg-scanpackages --multiversion dists/$RELEASE/main/binary-all > dists/$RELEASE/main/binary-all/Packages
 apt-ftparchive -c <(echo "$CONFIG") release dists/$RELEASE > dists/$RELEASE/Release
 
 cd dists/$RELEASE
