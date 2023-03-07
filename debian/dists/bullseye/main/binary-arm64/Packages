@@ -1,3 +1,91 @@
+Package: grokj2k-tools
+Source: libgrokj2k
+Version: 10.0.5-1
+Architecture: arm64
+Maintainer: Aaron Boxer <boxerab@protonmail.com>
+Installed-Size: 82
+Depends: libc6 (>= 2.17), libgrokj2k1 (>= 10.0.5)
+Filename: dists/bullseye/main/binary-arm64/grokj2k-tools_10.0.5-1_arm64.deb
+Size: 27680
+MD5sum: a3d4f67bdf6da9ca15a70258e4b0fc94
+SHA1: c8a8c198f198f16cb069ca6c8b1ef268dd34aa09
+SHA256: 68c03a1e900f410d8a7221838dcd2afcfa66bbf940595bb5fc9699dc41d96de2
+Section: graphics
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/GrokImageCompression/grok
+Description: command-line tools for the Grok JPEG 2000 library
+ This package provides command-line tools for conversions between
+ several image formats:
+ .
+  - grk_decompress: decompress j2k or jp2 file to pgm, ppm, pnm, pam,
+                  pgx, tif, bmp, raw, rawl, jpeg or png.
+  - grk_compress: encode pgm, ppm, pnm, pam, pgx, tif, bmp, raw, rawl,
+                  jpeg or png file to j2k or jp2 file.
+  - grk_dump: dump information contained in a j2k or jp2 file.
+
+Package: grokj2k-tools
+Source: libgrokj2k
+Version: 10.0.5-1
+Architecture: amd64
+Maintainer: Aaron Boxer <boxerab@protonmail.com>
+Installed-Size: 106
+Depends: libc6 (>= 2.2.5), libgrokj2k1 (>= 10.0.5)
+Filename: dists/bullseye/main/binary-arm64/grokj2k-tools_10.0.5-1_amd64.deb
+Size: 27660
+MD5sum: d1e409078d3f99c91e8984899644c7e8
+SHA1: 7e6a4a8ade80d03a68c3b77ed2ebdadc8e087ba7
+SHA256: cec2a5e09e231c07195eb6a2ed3c45dda138c91e4f9ae63ff93922792578a684
+Section: graphics
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/GrokImageCompression/grok
+Description: command-line tools for the Grok JPEG 2000 library
+ This package provides command-line tools for conversions between
+ several image formats:
+ .
+  - grk_decompress: decompress j2k or jp2 file to pgm, ppm, pnm, pam,
+                  pgx, tif, bmp, raw, rawl, jpeg or png.
+  - grk_compress: encode pgm, ppm, pnm, pam, pgx, tif, bmp, raw, rawl,
+                  jpeg or png file to j2k or jp2 file.
+  - grk_dump: dump information contained in a j2k or jp2 file.
+
+Package: grokj2k-tools-dbgsym
+Source: libgrokj2k
+Version: 10.0.5-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Aaron Boxer <boxerab@protonmail.com>
+Installed-Size: 37
+Depends: grokj2k-tools (= 10.0.5-1)
+Filename: dists/bullseye/main/binary-arm64/grokj2k-tools-dbgsym_10.0.5-1_amd64.deb
+Size: 3904
+MD5sum: a73c81c86cbed5a9d4a9c90edf6fb519
+SHA1: 5392a1b0aa217c7e38b217424ef32868ff97483f
+SHA256: 4f4ba67a4acf82e5ad23eec2c9f5e6896b06d696d85c64dff7eadb549218a0a6
+Section: debug
+Priority: optional
+Description: debug symbols for grokj2k-tools
+Build-Ids: 7b423329e64204200dc8e175c228ae4b6291719d e9a86bfa022f7b278bd832dd078eb4d69fa607f2 f0d023bdee9970d2529b8e026a4595b584570187
+
+Package: grokj2k-tools-dbgsym
+Source: libgrokj2k
+Version: 10.0.5-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Aaron Boxer <boxerab@protonmail.com>
+Installed-Size: 40
+Depends: grokj2k-tools (= 10.0.5-1)
+Filename: dists/bullseye/main/binary-arm64/grokj2k-tools-dbgsym_10.0.5-1_arm64.deb
+Size: 4072
+MD5sum: 298c5135ae92d597d488bc5fff0d88ea
+SHA1: 4cfb821deb746506158fd46727acf4441117a6a1
+SHA256: 22e80aec3e8bf6062f16fbc3e7632326b9a722ff46d7339e63c8e6b01415a6b8
+Section: debug
+Priority: optional
+Description: debug symbols for grokj2k-tools
+Build-Ids: 027f9d5bc4cdc290f7bad7354d29e89191e446e6 262d3416b634ced8bb2c531ee3f189dcf7c2dc82 c07a07874143dc4d293a74c4f1360746b8122dd0
+
 Package: libgrokj2k1
 Source: libgrokj2k
 Version: 10.0.5-1
