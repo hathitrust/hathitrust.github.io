@@ -1,5 +1,50 @@
 Package: libgrokj2k1-doc
 Source: libgrokj2k
+Version: 10.0.5-1
+Architecture: all
+Maintainer: Aaron Boxer <boxerab@protonmail.com>
+Installed-Size: 50727
+Filename: dists/bullseye/main/binary-all/libgrokj2k1-doc_10.0.5-1_all.deb
+Size: 2488112
+MD5sum: d93b16ec7f09ccda1912eb746636c0f1
+SHA1: 51e2051ef4a17886b13328ed7aed929d1e325881
+SHA256: badc0fef382b022fb5e1d6a18f5918b5c8c71f2c97cecf00ec4b93035172a580
+Section: doc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/GrokImageCompression/grok
+Description: documentation for the Grok JPEG 2000 library
+ Grok is a library for handling the JPEG 2000 image compression format.
+ JPEG 2000 is a wavelet-based image compression standard that permits
+ progressive decoding by pixel and resolution accuracy.
+ It supports lossless and lossy compression and is resilient to image errors.
+ .
+ This package contains the documentation for Grok.
+
+Package: libgrokj2k1-doc
+Source: libgrokj2k
+Version: 9.7.4-1
+Architecture: all
+Maintainer: Aaron Boxer <boxerab@protonmail.com>
+Installed-Size: 39222
+Filename: dists/bullseye/main/binary-all/libgrokj2k1-doc_9.7.4-1_all.deb
+Size: 1938456
+MD5sum: 2554b5fcaa9039041931eab4e32bd9eb
+SHA1: cf8b2c6eb0e4ea1a300b0c083fcf12b42c164df6
+SHA256: 9ff82a9b282cf8d88635613e6a65b41922cb3496934db4a2ff73548916724e37
+Section: doc
+Priority: optional
+Homepage: https://github.com/GrokImageCompression/grok
+Description: documentation for the Grok JPEG 2000 library
+ Grok is a library for handling the JPEG 2000 image compression format.
+ JPEG 2000 is a wavelet-based image compression standard that permits
+ progressive decoding by pixel and resolution accuracy.
+ It supports lossless and lossy compression and is resilient to image errors.
+ .
+ This package contains the documentation for Grok.
+
+Package: libgrokj2k1-doc
+Source: libgrokj2k
 Version: 9.7.5-1
 Architecture: all
 Maintainer: Aaron Boxer <boxerab@protonmail.com>
